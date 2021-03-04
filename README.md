@@ -1,6 +1,7 @@
 # React App - Tic Tac Toe
 
 ## Steps
+
 Created this react app with `create-react-app`
 
 deployed app [here](https://japankid-code.github.io/react-gh-pages/).
