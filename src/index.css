@@ -6,7 +6,7 @@
 }
 
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font: 12px 'Exo 2';
   margin: 20px;
   background-color: #0c2027;
 }
@@ -44,10 +44,11 @@ body {
   margin-top: -5px;
   margin-bottom: 5px;
   margin-left: 18px;
+  display: flex;
 }
 
 .status {
-  font: 10px "Century Gothic", Futura, sans-serif;
+  font: 10px 'Exo 2';
   align-self: center;
   height: 0%;
   opacity: 0.6;
@@ -55,18 +56,26 @@ body {
 }
 
 .square {
-  width: 64px;
-  height: 64px;
-  margin: 3px;
-  font: 14px "Century Gothic", Futura, sans-serif;
-  text-indent: -4px;
+  display: flex;
+  width: 66px;
+  height: 66px;
+  margin: 1.5px;
+  font: 54px 'Exo 2';
   background-color: #288a2b;
   border: 4px solid #43a047;
-  border-radius: 400px;
+  border-radius: 13px;
   outline: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.square:focus {
+.square p {
+  text-indent: 3px;
+}
+
+.square:focus,
+.square:hover,
+.square:active {
   outline: none;
 }
 
