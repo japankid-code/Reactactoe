@@ -3,6 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './splash.scss';
 
 function Square(props) {
   return (
