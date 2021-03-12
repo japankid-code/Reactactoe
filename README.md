@@ -4,7 +4,7 @@
 
 Created this react app with `create-react-app`
 
-deployed app [here](https://japankid-code.github.io/react-gh-pages/).
+deployed app [here](https://japankid-code.github.io/reactactoe/).
 
 app published to github pages using [this guide](https://github.com/gitname/react-gh-pages).
 
