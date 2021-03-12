@@ -67,12 +67,20 @@ body {
   outline: none;
   justify-content: center;
   align-items: center;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }
-/* square ripple effect start!!*/
 
-/* sq ripple end */
+.square:hover {
+  background-color: #267e2c;
+}
+
 .square p {
   text-indent: 3px;
+  position: relative;
+  bottom: 3px;
 }
 
 .square:focus,
